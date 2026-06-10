@@ -188,6 +188,7 @@ export default function App() {
 
   const toggleLock = (index: number) => {
     if (cards.length === 0) return;
+    index = position[index] - 1
     const newCards = [...cards];
     newCards[index] = { ...newCards[index], locked: !newCards[index].locked };
     setCards(newCards);
