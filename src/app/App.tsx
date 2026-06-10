@@ -280,7 +280,7 @@ export default function App() {
         <div className="text-center mb-8">
           <h1 className="text-5xl font-bold text-white mb-4">아르카나 시뮬레이터</h1>
           {totalPowder > 0 && (
-            <p className="text-slate-400 text-sm mt-2">누적 소모 아이템: {totalPowder.toLocaleString()} 가루, {totalStamp.toLocaleString()} 스탬프 (총 {(totalPowder + totalStamp * 1000).toLocaleString()} 가루, {((Math.ceil(totalPowder + totalStamp * 1000) / 11.52) / 100).toLocaleString()} 일)</p>
+            <p className="text-slate-400 text-sm mt-2">누적 소모 아이템: {totalPowder.toLocaleString()} 가루, {totalStamp.toLocaleString()} 스탬프 (총 {(totalPowder + totalStamp * 1000).toLocaleString()} 가루, {((Math.ceil(totalPowder + totalStamp * 1000) / 18.72) / 100).toLocaleString()} 일)</p>
           )}
         </div>
 
